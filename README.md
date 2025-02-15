@@ -1,24 +1,22 @@
  #                                                                    NumPy Mastery Roadmap
 
-1. Introduction to NumPy
+# 1. Introduction to NumPy
 
-What is NumPy?
+* What is NumPy?
 
-NumPy (Numerical Python) is a powerful library for numerical computing in Python. It provides support for large multidimensional arrays and matrices, along with a collection of mathematical functions to operate on these arrays.
+  NumPy (Numerical Python) is a powerful library for numerical computing in Python. It provides support for large multidimensional arrays and matrices, along with a collection of 
+  mathematical functions to operate on these arrays.
 
-Installing NumPy
+# Installing NumPy
 
-!pip install numpy
+ * !pip install numpy
 
-Importing NumPy
 
-import numpy as np
-
-2. NumPy Arrays
-
-Creating Arrays
+# 2. NumPy Arrays
 
 # Creating a 1D array
+Importing NumPy
+import numpy as np
 arr1d = np.array([1, 2, 3, 4, 5])
 print(arr1d)
 
@@ -33,7 +31,7 @@ print(arr2d.shape)  # (2,3)
 print(arr1d.dtype)  # int32 or int64 depending on the system
 print(arr2d.ndim)   # Number of dimensions
 
-Special Arrays
+ # Special Arrays
 
 # Zeros array
 print(np.zeros((3,3)))
